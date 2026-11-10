@@ -1,0 +1,12 @@
+# Tian, Wu, King & Bowyer, "Impact of Sunglasses on One-to-Many Facial Identification
+# Accuracy", IEEE TBIOM, arXiv:2412.05721.
+source: arXiv:2412.05721
+
+# Sec. III: mugshot-quality baselines are near perfect for both matchers. These are loose
+# floors for a working recogniser.
+clean_rank1_floor: 90.0
+clean_lfw_accuracy_floor: 90.0
+
+# Table VI: training with more sunglasses images leaves general accuracy unchanged
+# (95.31% at 0% vs 95.22% at 23%).
+general_accuracy_tolerance_pp: 1.0
